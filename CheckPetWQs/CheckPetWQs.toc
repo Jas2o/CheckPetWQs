@@ -1,0 +1,20 @@
+## Interface: 100205
+## Author: jas2o
+## Version: 4.07
+## Title: CheckPetWQs
+## Notes: Checks if there are pet battle world quests up that you need to do for achievements, and if any nice rewards are up.
+## OptionalDeps: Ace3, CallbackHandler-1.0
+## SavedVariables: CheckPetWQsConfig
+
+#@no-lib-strip@ 
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+#@end-no-lib-strip@
+
+CheckPetWQs.lua
+CheckWindowFighter.xml
+CheckWindowRewards.xml
